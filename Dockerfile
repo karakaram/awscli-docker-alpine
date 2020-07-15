@@ -1,9 +1,5 @@
-FROM python:3.8-alpine3.10
+FROM amazon/aws-cli
 
-ENV PYTHONIOENCODING=UTF-8
-
-RUN apk add --no-cache --update-cache \
-    jq \
-    && pip install awscli
-
-CMD ["aws"]
+RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
+  && python get-pip.py \
+  && pip install aws-encryption-sdk-cli
