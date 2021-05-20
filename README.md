@@ -19,7 +19,7 @@ docker run --rm karakaram/awscli --version
 Create a tag
 
 ```
-docker image tag karakaram/awscli:latest karakaram/awscli:2.0.20
+docker image tag karakaram/awscli:latest karakaram/awscli:2.2.5
 ```
 
 Execute commands
