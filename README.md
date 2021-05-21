@@ -1,6 +1,6 @@
 # awscli-v2-docker
 
-This repository contains AWS CLI version 2 and AWS Encryption SDK CLI.
+This repository contains Dockerfile to use AWS CLI, EB CLI and AWS Encryption SDK CLI.
 
 ## Usage
 
